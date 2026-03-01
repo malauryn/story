@@ -1,5 +1,15 @@
-/* styles.css */
+body {
+  font-family: 'Gentium Book Basic', serif;
+}
 
-* {
-	font-family: Arial;
+h1 {
+  font-family: 'UnifrakturMaguntia', cursive;
+}
+
+/* Keeps images looking nice and consistent */
+.story-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid rgba(0,0,0,0.1);
 }
