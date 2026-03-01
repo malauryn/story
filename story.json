@@ -1,0 +1,138 @@
+{
+  "start": {
+    "image": "assets/img/painting.png",
+    "alt": "Painting",
+    "text": "Have you ever had a chance encounter before? Like an encounter with someone that felt like a door filled with possibilities? A new future?",
+    "choices": [
+      { "label": "No", "next": "no_end" },
+      { "label": "Yes", "next": "yes_reminisce" }
+    ]
+  },
+
+  "no_end": {
+    "image": "assets/img/painting.png",
+    "alt": "Painting",
+    "text": "Oh nevermind then.",
+    "choices": [
+      { "label": "Start over", "next": "start" }
+    ]
+  },
+
+  "yes_reminisce": {
+    "image": "assets/img/painting.png",
+    "alt": "Painting",
+    "text": "You get me then… A few years back I attended an Art Exhibit…",
+    "choices": [
+      { "label": "Reminisce", "next": "painting_intro" }
+    ]
+  },
+
+  "painting_intro": {
+    "image": "assets/img/painting.png",
+    "alt": "Painting",
+    "text": "That painting, the one with the bright blue ocean, bus stop with two figures caught my eye. I’ve always been pretty bad at describing things, but it felt melancholy…agressive contrasted with calm? It just felt familiar.",
+    "choices": [
+      { "label": "Observe closer", "next": "painting_details" }
+    ]
+  },
+
+  "painting_details": {
+    "image": "assets/img/painting.png",
+    "alt": "Painting",
+    "text": "The figure in the painting was painted in red, and yet there’s a line of yellow connecting the outside world to his ears, eyes and heart.",
+    "choices": [
+      { "label": "Silently observe.", "next": "liam_enters_polite" },
+      { "label": "\"Creepy…\"", "next": "liam_enters_creepy" }
+    ]
+  },
+
+  "liam_enters_polite": {
+    "image": "assets/img/liam-narrator.png",
+    "alt": "Liam and narrator",
+    "text": "\"Has something caught your interest?\" I jumped and turned around. A tall man with dyed dark purple hair, stared down at me. Looking at his name tag was the name, Liam Alan, which of course was the name of the artist.",
+    "choices": [
+      { "label": "Ask about the painting", "next": "who_is_that" }
+    ]
+  },
+
+  "liam_enters_creepy": {
+    "image": "assets/img/liam-narrator.png",
+    "alt": "Liam and narrator",
+    "text": "\"Ouch, that wasn’t what I was going for.\" I jumped and turned around. A tall man with dyed dark purple hair, stared down at me. Looking at his name tag was the name, Liam Alan, which of course was the name of the artist. \"Ah! I meant that as a compliment.\"",
+    "choices": [
+      { "label": "Keep talking", "next": "who_is_that" }
+    ]
+  },
+
+  "who_is_that": {
+    "image": "assets/img/liam-narrator.png",
+    "alt": "Liam and narrator",
+    "text": "There was clear amusement in his eyes, which was a relief, “Who is that person in your painting?” I pointed my finger toward the red silhouette of a person.\n\nLiam’s smile was gentle, professional, “That would be myself.”",
+    "choices": [
+      { "label": "Next", "next": "yellow_line_question" }
+    ]
+  },
+
+  "yellow_line_question": {
+    "image": "assets/img/painting.png",
+    "alt": "Painting",
+    "text": "“I see…” And suddenly I realized…as I probably should’ve earlier, that this painting represented a dark moment for the artist. A bus stop, a place where one waits to move on with life, a person painted in red, someone dealing with an internal struggle, “And the line of yellow that goes from your ears, eyes and heart?”",
+    "choices": [
+      { "label": "Next", "next": "bus_stop_story" }
+    ]
+  },
+
+  "bus_stop_story": {
+    "image": "assets/img/bus-stop.png",
+    "alt": "Liam at the bus stop",
+    "text": "Liam seemed immersed in his own drawing, going back to a time when he wasn’t a successful artist but a boy stuck at a bus stop, lost within himself. After what felt like a minute, he spoke, “I had a chance encounter. I heard a girl talk to a bunch of stray cats, which then caught my attention. While watching her, I heard her comfort the cats. My life had so much turmoil in that moment that watching her being kind to some animals made me happy.”",
+    "choices": [
+      { "label": "Next", "next": "do_you_remember" }
+    ]
+  },
+
+  "do_you_remember": {
+    "image": "assets/img/liam-narrator.png",
+    "alt": "Liam and narrator",
+    "text": "“So a girl feeding cats made you happy?”\n“That and,” Liam leaned down, “Do you really not remember?”",
+    "choices": [
+      { "label": "Next", "next": "nevermind" }
+    ]
+  },
+
+  "nevermind": {
+    "image": "assets/img/liam-narrator.png",
+    "alt": "Liam and narrator",
+    "text": "I thought I misheard, “I’m sorry what did you say?”\nSuddenly all the confidence and charisma the painter had vanished. He smiled awkwardly, saying something along the lines of, “Nevermind, I’ll see you later.” He turned to move away—",
+    "choices": [
+      { "label": "Remember!", "next": "memory_1" }
+    ]
+  },
+
+  "memory_1": {
+    "image": "assets/img/girl-cat.png",
+    "alt": "Girl and cat",
+    "text": "I’ve always loved cats… even though I’m a dog person. I was waiting for the bus that day, when I saw a bunch of stray kitties. I had bought some cat food earlier, and was excited to feed those cats. Crouched down on the floor, I think I said something along the lines of,\n\n“You are the sweetest things, I want to kidnap you all and take you to my dorm. There you will be safe, and nothing bad will ever happen to you. I love you, I love you, I love you, I love you, I love you.”",
+    "choices": [
+      { "label": "Next", "next": "memory_2" }
+    ]
+  },
+
+  "memory_2": {
+    "image": "assets/img/girl-cat.png",
+    "alt": "Girl and cat",
+    "text": "It was absolute nonsense, but I was so happy in that moment. When I turned around, I saw a boy sitting on the bus-stop bench. He had dark bags under his eyes, and so he obviously hadn’t been sleeping well. I picked up the cat-kibble and shook it in his direction, “You want some too?”\n\nI remember his laugh; it sounded like a bright bolt of lightning breaking through a dark sky.\nI invited him to sit with me and feed the cats together. I didn’t see him again until today.",
+    "choices": [
+      { "label": "Next", "next": "finale" }
+    ]
+  },
+
+  "finale": {
+    "image": "assets/img/girl-liam-catfood.png",
+    "alt": "Girl, Liam and cat food",
+    "text": "With Liam’s back turned against me, I reached into my bag and shook a bag of cat-kibble that I had bought for my own cat earlier, “You want some?”\n\nLiam stopped, and turned a wide smile on his face. And as he said eight years earlier, “No, but it made me happy to watch you.”\n\nIt doesn’t have to be big, it doesn’t have to be grande. The simple joys can reach someone.",
+    "choices": [
+      { "label": "Read again", "next": "start" }
+    ]
+  }
+}
